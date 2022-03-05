@@ -3,5 +3,5 @@
 // To update the version number for a new release, run "sampctl package release"
 
 #define DIALOG_HANDLER_VERSION_MAJOR (0)
-#define DIALOG_HANDLER_VERSION_MINOR (0)
-#define DIALOG_HANDLER_VERSION_PATCH (1)
+#define DIALOG_HANDLER_VERSION_MINOR (1)
+#define DIALOG_HANDLER_VERSION_PATCH (0)

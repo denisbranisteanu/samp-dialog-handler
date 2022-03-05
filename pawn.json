@@ -2,12 +2,19 @@
 	"user": "GroWy",
 	"repo": "dialog-handler",
 	"tag": "0.0.1",
-	"entry": "y.pwn",
-	"output": "gamemodes/y.amx",
+	"entry": "dialog-handler.pwn",
+	"output": "gamemodes/dialog-handler.amx",
 	"dependencies": [
-		"pawn-lang/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"pawn-lang/YSI-Includes:v5.05.0505"
 	],
 	"runtime": {
-		"mode": "y_testing"
+		"version": "0.3.7",
+		"mode": "y_testing",
+		"rcon_password": "password",
+		"port": 8192,
+		"hostname": "SA-MP Server",
+		"maxplayers": 50,
+		"language": ""
 	}
 }
