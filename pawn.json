@@ -1,0 +1,13 @@
+{
+	"user": "GroWy",
+	"repo": "dialog-handler",
+	"tag": "0.0.1",
+	"entry": "y.pwn",
+	"output": "gamemodes/y.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}
