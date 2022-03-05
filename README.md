@@ -41,12 +41,8 @@ bool:IsDialogDisplayed(playerid);
 
 In the source code there are some constants that can be modified.
 
-* DIALOG_HANDLER_MAX_INFO: used to limit the dialog's info length (4096 by default).
-* DIALOG_HANDLER_MAIN_ID: (default)
-
-```bash
-sampctl package run
-```
+* DIALOG_HANDLER_MAX_INFO: used to limit the dialog's info length (4096 by default).<br>
+* DIALOG_HANDLER_MAIN_ID: id of the dialog used by the library, by default the value is set very high so as not have problems with other dialogs.
 
 ## Testing
 
