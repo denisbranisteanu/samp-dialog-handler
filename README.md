@@ -37,6 +37,17 @@ Check if a player have a dialog displayed:
 bool:IsDialogDisplayed(playerid);
 ```
 
+## Internal
+
+In the source code there are some constants that can be modified.
+
+* DIALOG_HANDLER_MAX_INFO: used to limit the dialog's info length (4096 by default).
+* DIALOG_HANDLER_MAIN_ID: (default)
+
+```bash
+sampctl package run
+```
+
 ## Testing
 
 To test, simply run the package:
