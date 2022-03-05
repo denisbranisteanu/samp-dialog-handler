@@ -44,6 +44,13 @@ In the source code there are some constants that can be modified.
 * DIALOG_HANDLER_MAX_INFO: used to limit the dialog's info length (4096 by default).<br>
 * DIALOG_HANDLER_MAIN_ID: id of the dialog used by the library, by default the value is set very high so as not have problems with other dialogs.
 
+You can simply add them before including the include:
+
+```pawn
+#define DIALOG_HANDLER_MAIN_ID <value>
+#define DIALOG_HANDLER_MAX_INFO <value>
+```
+
 ## Testing
 
 To test, simply run the package:
